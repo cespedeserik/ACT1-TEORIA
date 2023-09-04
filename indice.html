@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Mi Galería de Dibujos</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Galería de Dibujos</h1>
+        <nav>
+            <ul>
+                <li><a href="#contacto">Información de contacto</a></li>
+                <li><a href="#quien-soy">Quién Soy</a></li>
+                <li><a href="#caricaturas">Caricaturas</a></li>
+                <li><a href="#paisajes">Paisajes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Activad">
+            <h2>ACTIVIDAD 1 - PROYECTO DE SOFTWARE</h2>
+            <a href="https://catedras.linti.unlp.edu.ar/mod/quiz/attempt.php?attempt=79770&cmid=38211">Ir a enunciado</a>
+        </section>
+        <section id="contacto">
+            <h2>Información de contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="quien-soy">
+            <h2>Quién Soy</h2>
+            <p>Bienvenidos a mi galería de dibujos. Soy [Tu Nombre] y me apasiona el arte. Aquí encontrarás una selección de mis dibujos en tres categorías diferentes.</p>
+        </section>
+
+        <section id="caricaturas">
+            <h2>Caricaturas</h2>
+            <div class="galeria">
+                <!-- Aquí van las imágenes de caricaturas -->
+                <img src="imagenes/caricatura/caricatura1.png" alt="Caricatura 1">
+                <img src="imagenes/caricatura/caricatura2.png" alt="Caricatura 2">
+            </div>
+        </section>
+
+        <section id="paisajes">
+            <h2>Paisajes</h2>
+            <div class="galeria">
+                <!-- Aquí van las imágenes de paisajes -->
+                <img src="imagenes/paisaje/paisaje1.png" alt="Paisaje 1">
+                <img src="imagenes/paisaje/paisaje2.png" alt="Paisaje 2">
+            </div>
+        </section>
+
+        <section id="anime">
+            <h2>Animé</h2>
+            <div class="galeria">
+                <!-- Aquí van las imágenes de anime -->
+                <img src="imagenes/anime/anime1.png" alt="Animé 1">
+                <img src="imagenes/anime/anime2.png" alt="Animé 2">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 [Tu Nombre]</p>
+    </footer>
+</body>
+</html>

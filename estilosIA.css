@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tu preferencia */
+}
+
+header {
+    background-color: #333; /* Cambia el color de fondo del encabezado según tu preferencia */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    margin: 20px 0;
+    background-color: #fff; /* Cambia el color de fondo de las secciones según tu preferencia */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333; /* Cambia el color del encabezado de sección según tu preferencia */
+}
+
+/* Estilos para la galería de imágenes */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria img {
+    max-width: 100%;
+    border: 2px solid #333; /* Borde para todas las imágenes */
+    border-radius: 5px;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
